@@ -39,7 +39,7 @@ namespace kiosk01
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(73, 118);
+            this.pictureBox1.Location = new System.Drawing.Point(86, 117);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(320, 319);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -51,7 +51,7 @@ namespace kiosk01
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.label1.Location = new System.Drawing.Point(420, 284);
+            this.label1.Location = new System.Drawing.Point(431, 283);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(555, 56);
             this.label1.TabIndex = 1;
@@ -62,7 +62,7 @@ namespace kiosk01
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(16)))), ((int)(((byte)(125)))));
-            this.label2.Location = new System.Drawing.Point(415, 210);
+            this.label2.Location = new System.Drawing.Point(426, 209);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(636, 56);
             this.label2.TabIndex = 1;

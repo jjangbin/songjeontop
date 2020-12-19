@@ -60,7 +60,7 @@ namespace kiosk01
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(585, 378);
+            this.button2.Location = new System.Drawing.Point(566, 378);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(271, 141);
             this.button2.TabIndex = 0;
@@ -71,9 +71,9 @@ namespace kiosk01
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(272, 321);
+            this.label1.Location = new System.Drawing.Point(290, 321);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(552, 40);
+            this.label1.Size = new System.Drawing.Size(501, 40);
             this.label1.TabIndex = 1;
             this.label1.Text = "선택하신 메뉴가 맞다면 \'예\'를 눌러주세요.";
             // 
