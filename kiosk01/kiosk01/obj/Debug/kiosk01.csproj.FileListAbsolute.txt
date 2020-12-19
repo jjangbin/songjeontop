@@ -1,0 +1,16 @@
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\bin\Debug\kiosk01.exe.config
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\bin\Debug\kiosk01.exe
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\bin\Debug\kiosk01.pdb
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.csprojAssemblyReference.cache
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.Form1.resources
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.Properties.Resources.resources
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.csproj.GenerateResource.cache
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.csproj.CoreCompileInputs.cache
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.exe
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.pdb
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.form_menulist.resources
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.csproj.CopyComplete
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.menuchoice.resources
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.gyeoljae.resources
+C:\Users\은지\Desktop\songjeon\kiosk01\kiosk01\obj\Debug\kiosk01.finish.resources
