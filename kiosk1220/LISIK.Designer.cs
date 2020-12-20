@@ -57,7 +57,7 @@ namespace kiosk1220
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
             this.label6.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label6.Location = new System.Drawing.Point(15, 10);
+            this.label6.Location = new System.Drawing.Point(20, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(128, 45);
             this.label6.TabIndex = 24;

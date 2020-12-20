@@ -30,8 +30,6 @@ namespace kiosk1220
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -46,36 +44,19 @@ namespace kiosk1220
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.hansik1 = new kiosk1220.HANSIK();
+            this.junsik1 = new kiosk1220.JUNSIK();
+            this.yangsik1 = new kiosk1220.yangsik();
+            this.lisik1 = new kiosk1220.LISIK();
+            this.boonsik1 = new kiosk1220.boonsik();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(49)))), ((int)(((byte)(96)))));
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(961, 27);
-            this.panel1.TabIndex = 6;
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(925, 0);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(36, 27);
-            this.button7.TabIndex = 1;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // panel2
             // 
@@ -147,7 +128,6 @@ namespace kiosk1220
             this.button8.Size = new System.Drawing.Size(36, 27);
             this.button8.TabIndex = 1;
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -166,6 +146,7 @@ namespace kiosk1220
             this.button6.Text = "분식";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -184,6 +165,7 @@ namespace kiosk1220
             this.button5.Text = "일식";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -202,6 +184,7 @@ namespace kiosk1220
             this.button4.Text = "양식";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -220,6 +203,7 @@ namespace kiosk1220
             this.button3.Text = "중식";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -238,6 +222,7 @@ namespace kiosk1220
             this.button2.Text = "한식";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -280,12 +265,83 @@ namespace kiosk1220
             this.label1.TabIndex = 13;
             this.label1.Text = "경북산업직업전문학교 구내식당에 오신걸 환영합니다.\r\n           왼쪽의 탭을 누르면 메뉴로 이동합니다.";
             // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Location = new System.Drawing.Point(925, 0);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(36, 27);
+            this.button7.TabIndex = 1;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(49)))), ((int)(((byte)(96)))));
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(961, 27);
+            this.panel1.TabIndex = 6;
+            // 
+            // hansik1
+            // 
+            this.hansik1.Location = new System.Drawing.Point(177, 90);
+            this.hansik1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hansik1.Name = "hansik1";
+            this.hansik1.Size = new System.Drawing.Size(783, 436);
+            this.hansik1.TabIndex = 14;
+            // 
+            // junsik1
+            // 
+            this.junsik1.Location = new System.Drawing.Point(177, 90);
+            this.junsik1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.junsik1.Name = "junsik1";
+            this.junsik1.Size = new System.Drawing.Size(783, 436);
+            this.junsik1.TabIndex = 15;
+            // 
+            // yangsik1
+            // 
+            this.yangsik1.BackColor = System.Drawing.Color.White;
+            this.yangsik1.Location = new System.Drawing.Point(177, 90);
+            this.yangsik1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.yangsik1.Name = "yangsik1";
+            this.yangsik1.Size = new System.Drawing.Size(783, 436);
+            this.yangsik1.TabIndex = 16;
+            // 
+            // lisik1
+            // 
+            this.lisik1.Location = new System.Drawing.Point(177, 90);
+            this.lisik1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lisik1.Name = "lisik1";
+            this.lisik1.Size = new System.Drawing.Size(783, 436);
+            this.lisik1.TabIndex = 17;
+            // 
+            // boonsik1
+            // 
+            this.boonsik1.BackColor = System.Drawing.Color.White;
+            this.boonsik1.Location = new System.Drawing.Point(177, 90);
+            this.boonsik1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.boonsik1.Name = "boonsik1";
+            this.boonsik1.Size = new System.Drawing.Size(783, 436);
+            this.boonsik1.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(961, 555);
+            this.Controls.Add(this.boonsik1);
+            this.Controls.Add(this.lisik1);
+            this.Controls.Add(this.yangsik1);
+            this.Controls.Add(this.junsik1);
+            this.Controls.Add(this.hansik1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pictureBox3);
@@ -298,20 +354,18 @@ namespace kiosk1220
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -324,9 +378,15 @@ namespace kiosk1220
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Panel panel1;
+        private HANSIK hansik1;
+        private JUNSIK junsik1;
+        private yangsik yangsik1;
+        private LISIK lisik1;
+        private boonsik boonsik1;
     }
 }
 

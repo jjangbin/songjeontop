@@ -159,7 +159,7 @@ namespace Shakerestaurant
             this.label3.Location = new System.Drawing.Point(173, 29);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 40);
+            this.label3.Size = new System.Drawing.Size(103, 33);
             this.label3.TabIndex = 6;
             this.label3.Text = "SHACK";
             // 
@@ -181,7 +181,7 @@ namespace Shakerestaurant
             this.label1.Location = new System.Drawing.Point(6, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 40);
+            this.label1.Size = new System.Drawing.Size(95, 33);
             this.label1.TabIndex = 4;
             this.label1.Text = "SHAKE";
             // 
@@ -300,7 +300,7 @@ namespace Shakerestaurant
             this.label2.ForeColor = System.Drawing.Color.DimGray;
             this.label2.Location = new System.Drawing.Point(378, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(306, 30);
+            this.label2.Size = new System.Drawing.Size(236, 22);
             this.label2.TabIndex = 3;
             this.label2.Text = "One of my favorite thing";
             // 
@@ -372,24 +372,24 @@ namespace Shakerestaurant
             // 
             // secondUserControl11
             // 
-            this.secondUserControl11.Location = new System.Drawing.Point(383, 90);
-            this.secondUserControl11.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.secondUserControl11.Location = new System.Drawing.Point(314, 90);
+            this.secondUserControl11.Margin = new System.Windows.Forms.Padding(7, 16, 7, 16);
             this.secondUserControl11.Name = "secondUserControl11";
-            this.secondUserControl11.Size = new System.Drawing.Size(1288, 592);
+            this.secondUserControl11.Size = new System.Drawing.Size(1682, 1484);
             this.secondUserControl11.TabIndex = 11;
             // 
             // firstUserControl11
             // 
             this.firstUserControl11.ForeColor = System.Drawing.Color.Black;
-            this.firstUserControl11.Location = new System.Drawing.Point(383, 90);
-            this.firstUserControl11.Margin = new System.Windows.Forms.Padding(4);
+            this.firstUserControl11.Location = new System.Drawing.Point(324, 70);
+            this.firstUserControl11.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.firstUserControl11.Name = "firstUserControl11";
-            this.firstUserControl11.Size = new System.Drawing.Size(1288, 592);
+            this.firstUserControl11.Size = new System.Drawing.Size(1472, 937);
             this.firstUserControl11.TabIndex = 10;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1556, 1055);
             this.Controls.Add(this.secondUserControl11);
@@ -452,8 +452,8 @@ namespace Shakerestaurant
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private firstUserControl1 firstUserControl11;
         private HANSIK secondUserControl11;
+        private firstUserControl1 firstUserControl11;
     }
 }
 
