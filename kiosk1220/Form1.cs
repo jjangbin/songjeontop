@@ -15,6 +15,7 @@ namespace kiosk1220
         public Form1()
         {
             InitializeComponent();
+            label2.Text = DateTime.Now.ToString("yyyy년 MM월 dd일 tt hh:mm");
             all_menu_visible(false);
             panel4.Height = button1.Height;
             panel4.Top = button1.Top;
