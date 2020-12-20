@@ -101,5 +101,10 @@ namespace kiosk1220
             panel4.Top = button6.Top;
             boonsik1.BringToFront();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label2.Text = DateTime.Now.ToString("yyyy년 MM월 dd일 tt hh:mm");
+        }
     }
 }

@@ -26,7 +26,6 @@ C:\Users\은지\Desktop\kiosk1220\songjeontop\kiosk1220\obj\Debug\Shakerestauran
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe.config
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\bin\Debug\kiosk1220.exe
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\bin\Debug\kiosk1220.pdb
-E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.boonsik.resources
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.Form1.resources
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.HANSIK.resources

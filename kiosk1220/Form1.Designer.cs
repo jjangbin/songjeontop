@@ -29,6 +29,7 @@ namespace kiosk1220
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,6 +52,7 @@ namespace kiosk1220
             this.yangsik1 = new kiosk1220.yangsik();
             this.lisik1 = new kiosk1220.LISIK();
             this.boonsik1 = new kiosk1220.boonsik();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
@@ -74,11 +76,11 @@ namespace kiosk1220
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(740, 0);
+            this.label2.Location = new System.Drawing.Point(739, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(214, 21);
+            this.label2.Size = new System.Drawing.Size(218, 21);
             this.label2.TabIndex = 0;
-            this.label2.Text = "2020년 12월 19일 AM 10:37";
+            this.label2.Text = "2020년 12월 19일 오전 10:37";
             // 
             // pictureBox2
             // 
@@ -331,6 +333,12 @@ namespace kiosk1220
             this.boonsik1.Size = new System.Drawing.Size(783, 436);
             this.boonsik1.TabIndex = 18;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -387,6 +395,7 @@ namespace kiosk1220
         private yangsik yangsik1;
         private LISIK lisik1;
         private boonsik boonsik1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
