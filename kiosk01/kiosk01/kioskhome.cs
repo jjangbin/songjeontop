@@ -15,11 +15,13 @@ namespace kiosk01
         public kioskhome()
         {
             InitializeComponent();
+            form_menulist1.Visible = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-         
+            form_menulist1.Visible = true;
+            form_menulist1.BringToFront();
         }
 
         private void button2_Click(object sender, EventArgs e)
