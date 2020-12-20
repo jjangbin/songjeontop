@@ -46,16 +46,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="boonsik.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="boonsik.Designer.cs">
+      <DependentUpon>boonsik.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HANSIK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HANSIK.Designer.cs">
+      <DependentUpon>HANSIK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JUNSIK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JUNSIK.Designer.cs">
+      <DependentUpon>JUNSIK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LISIK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LISIK.Designer.cs">
+      <DependentUpon>LISIK.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="yangsik.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="yangsik.Designer.cs">
+      <DependentUpon>yangsik.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="boonsik.resx">
+      <DependentUpon>boonsik.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HANSIK.resx">
+      <DependentUpon>HANSIK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JUNSIK.resx">
+      <DependentUpon>JUNSIK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LISIK.resx">
+      <DependentUpon>LISIK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="yangsik.resx">
+      <DependentUpon>yangsik.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
