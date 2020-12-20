@@ -37,3 +37,4 @@ E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.cs
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.exe
 E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.pdb
+E:\KB\cSharp_java_20201126\Projects\songjeontop\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
