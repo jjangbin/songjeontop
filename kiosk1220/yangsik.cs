@@ -16,5 +16,10 @@ namespace kiosk1220
         {
             InitializeComponent();
         }
+
+        private void yangsik_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

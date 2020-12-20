@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Shakerestaurant
+namespace kiosk1220
 {
     public partial class LISIK : UserControl
     {
         public LISIK()
         {
             InitializeComponent();
+        }
+
+        private void LISIK_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

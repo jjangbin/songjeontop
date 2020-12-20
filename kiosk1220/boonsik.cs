@@ -26,5 +26,10 @@ namespace kiosk1220
         {
 
         }
+
+        private void boonsik_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

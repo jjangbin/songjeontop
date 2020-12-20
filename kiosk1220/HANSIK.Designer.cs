@@ -1,5 +1,5 @@
 ﻿
-namespace Shakerestaurant
+namespace kiosk1220
 {
     partial class HANSIK
     {

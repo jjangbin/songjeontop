@@ -1,5 +1,5 @@
 ﻿
-namespace Shakerestaurant
+namespace kiosk1220
 {
     partial class LISIK
     {
@@ -57,9 +57,9 @@ namespace Shakerestaurant
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
             this.label6.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label6.Location = new System.Drawing.Point(17, 13);
+            this.label6.Location = new System.Drawing.Point(15, 10);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 56);
+            this.label6.Size = new System.Drawing.Size(128, 45);
             this.label6.TabIndex = 24;
             this.label6.Text = "일식";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -72,18 +72,19 @@ namespace Shakerestaurant
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(52, 113);
+            this.panel1.Location = new System.Drawing.Point(46, 90);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(242, 335);
+            this.panel1.Size = new System.Drawing.Size(212, 268);
             this.panel1.TabIndex = 25;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 209);
+            this.label4.Location = new System.Drawing.Point(12, 167);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(170, 80);
+            this.label4.Size = new System.Drawing.Size(139, 68);
             this.label4.TabIndex = 3;
             this.label4.Text = "Topped with\r\ngruyere-style cheese, \r\nand crispy shallots on\r\n a toasted potato bu" +
     "n";
@@ -95,9 +96,10 @@ namespace Shakerestaurant
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(106, 292);
+            this.button1.Location = new System.Drawing.Point(93, 234);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 29);
+            this.button1.Size = new System.Drawing.Size(102, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "더보기";
             this.button1.UseVisualStyleBackColor = false;
@@ -105,9 +107,10 @@ namespace Shakerestaurant
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(16, 66);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 53);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 140);
+            this.pictureBox1.Size = new System.Drawing.Size(158, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -116,18 +119,18 @@ namespace Shakerestaurant
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 222);
+            this.label2.Location = new System.Drawing.Point(10, 178);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 22);
+            this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 10);
+            this.label1.Location = new System.Drawing.Point(3, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 34);
+            this.label1.Size = new System.Drawing.Size(80, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "스시정식";
             // 
@@ -139,18 +142,19 @@ namespace Shakerestaurant
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(352, 113);
+            this.panel2.Location = new System.Drawing.Point(308, 90);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(242, 335);
+            this.panel2.Size = new System.Drawing.Size(212, 268);
             this.panel2.TabIndex = 26;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 209);
+            this.label3.Location = new System.Drawing.Point(12, 167);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(170, 80);
+            this.label3.Size = new System.Drawing.Size(139, 68);
             this.label3.TabIndex = 3;
             this.label3.Text = "Topped with\r\ngruyere-style cheese, \r\nand crispy shallots on\r\n a toasted potato bu" +
     "n";
@@ -162,9 +166,10 @@ namespace Shakerestaurant
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(106, 292);
+            this.button2.Location = new System.Drawing.Point(93, 234);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 29);
+            this.button2.Size = new System.Drawing.Size(102, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "더보기";
             this.button2.UseVisualStyleBackColor = false;
@@ -172,9 +177,10 @@ namespace Shakerestaurant
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(16, 66);
+            this.pictureBox2.Location = new System.Drawing.Point(14, 53);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(181, 140);
+            this.pictureBox2.Size = new System.Drawing.Size(158, 112);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -183,30 +189,32 @@ namespace Shakerestaurant
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 222);
+            this.label5.Location = new System.Drawing.Point(10, 178);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 22);
+            this.label5.Size = new System.Drawing.Size(0, 20);
             this.label5.TabIndex = 0;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(3, 10);
+            this.label7.Location = new System.Drawing.Point(3, 8);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(111, 34);
+            this.label7.Size = new System.Drawing.Size(80, 26);
             this.label7.TabIndex = 0;
             this.label7.Text = "가츠정식";
             // 
             // LISIK
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label6);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "LISIK";
-            this.Size = new System.Drawing.Size(895, 545);
+            this.Size = new System.Drawing.Size(783, 436);
+            this.Load += new System.EventHandler(this.LISIK_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

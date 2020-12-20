@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Shakerestaurant
+namespace kiosk1220
 {
     public partial class JUNSIK : UserControl
     {
         public JUNSIK()
         {
             InitializeComponent();
+        }
+
+        private void JUNSIK_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
