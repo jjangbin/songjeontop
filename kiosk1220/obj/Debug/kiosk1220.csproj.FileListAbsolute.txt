@@ -1,0 +1,10 @@
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\bin\Debug\kiosk1220.exe.config
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\bin\Debug\kiosk1220.exe
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\bin\Debug\kiosk1220.pdb
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.csprojAssemblyReference.cache
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.Form1.resources
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.Properties.Resources.resources
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.csproj.GenerateResource.cache
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.csproj.CoreCompileInputs.cache
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.exe
+C:\Users\은지\Desktop\kiosk1220\kiosk1220\obj\Debug\kiosk1220.pdb
